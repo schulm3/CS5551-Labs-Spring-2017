@@ -1,0 +1,12 @@
+<div ng-controller="loginCtrl">
+    <form action="/" id="myLogin">
+        Username: <input type="text" id="username" ng-model="username"><br>
+        Password: <input type="password" id="password" ng-model="password"><br>
+        <button type="button" ng-click="submit()">Login</button>
+    </form>
+
+    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
+</div>
+<div id="status">
+</div>

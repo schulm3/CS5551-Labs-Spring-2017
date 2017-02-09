@@ -1,0 +1,9 @@
+.login, .input
+{
+    max-width: 800px;
+    color: #555;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px;
+
+}
